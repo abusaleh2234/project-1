@@ -1,0 +1,1085 @@
+/*font-family: 'Open Sans', sans-serif;
+font-family: 'Roboto Slab', serif*/
+
+
+*{
+	padding: 0;
+	margin: 0; 
+}
+.topbar-section{
+	background-color: #eee;
+	padding: 12px 0 12px 0;
+}
+.container{
+	max-width:1365px;
+	width:100%;
+	padding:0 20px 0 20px;
+	margin:0 auto;
+	box-sizing: border-box;
+}
+.topbar-section .container .topbar-parrents {
+	display:flex;
+	justify-content: space-between;
+}
+.top-item1 p{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400px;
+	font-size: 16px;
+	color: #000;
+}
+
+.top-item2 p{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400px;
+	font-size: 16px;
+	color:#000;
+	padding-right: 175px;
+}
+.top-item2 .content2 span{
+	margin-right: 5px;
+}
+
+.top-item3 .icon-content .icon li{
+	margin-right: 20px;
+}
+.top-item3 .icon-content .icon{
+	margin-right: 0%;
+}
+
+.top-item3 .icon-content .icon li i{
+	color:#000;
+}
+.top-item3 .icon-content .icon li i:hover{
+	color: red;
+}
+.icon{
+	display: flex;
+	list-style: none;
+
+}
+
+
+/*----------heder-----*/
+
+.heder-parrents{
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.heder-section .heder-parrents .patr1 h5{
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 21px;
+}
+
+.heder-section .heder-parrents .patr1 p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 21px;
+	margin-top: 12px;
+}
+
+
+.part2 .logo img{
+	padding: 12px 0 10px 0;
+}
+
+.part3 .contuct-no h5 a{
+	color:red;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 21px;
+	text-align: end;
+	padding-left: 151px;
+	
+
+}
+.part3 .contuct-no h5{
+	margin-bottom: 15px;
+}
+
+.part3 .contuct-no p a{
+	color:#000;
+	text-decoration: none;
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 21px;
+	margin-top: 12px;
+	margin-top: 12px;
+}
+
+/*-----------MANU---------
+
+
+/*---------manu----------*/
+
+.manu-section{
+	background-color: #000;
+}
+
+.manu-section .manu-parrents .manu ul{
+	display: flex;
+	list-style: none;
+	justify-content: center;
+}
+.manu-section .manu-parrents .manu ul li a{
+	padding: 25px 35px 25px 35px;
+	display: inline-block;
+	color: #eee;
+	font-size: 16px;
+	line-height: 21px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	text-decoration: none;
+}
+
+.manu-section .manu-parrents .manu ul li a:hover{
+	background-color: red;
+	transition: 0.5s;
+}
+
+.manu-section .manu-parrents .manu ul .active{
+	background-color: red;
+}
+
+/*----------baner--------*/
+.banar-section{
+	background-image: url("../image/Screenshot_1.png");
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+	padding: 245px 0;
+}
+.banar-section .banar-parrents .banar-title{
+	max-width: 855px;
+	text-align: center;
+	margin: 0 auto;
+	background-color: #000;
+	opacity: 0.8;
+	padding: 30px 0;
+}
+.banar-section .banar-parrents .banar-title h1,
+.banar-section .banar-parrents .banar-title p{
+	color: #eee;
+	
+}
+.banar-section .banar-parrents .banar-title h1{
+	font-family: 'Roboto Slab', serif;
+	font-size: 42px;
+	line-height: 48px;
+	font-weight: 700;
+	padding: 0 0 20px 0;
+}
+.banar-section .banar-parrents .banar-title p{
+	font-family: 'Roboto Slab', serif;
+	font-size: 32px;
+	line-height: 38px;
+	font-weight: 400;
+}
+
+
+/*------------in_house-section-------*/
+
+.inhouse-section .inhouse-parrents{
+	display: flex;
+	padding: 80px 0 80px 0;
+	align-items: center;
+}
+
+.inhouse-section .inhouse-parrents .left-part-cotent{
+
+	max-width: 60%;
+
+}
+.inhouse-section .inhouse-parrents .right-part-image{
+	min-width: 40%;
+
+}
+
+.inhouse-section .inhouse-parrents .left-part-cotent .inhouse-title h2{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	color: black;
+	margin-bottom: 65px;
+	position: relative;
+
+}
+.inhouse-section .inhouse-parrents .left-part-cotent .inhouse-title h2::before {
+    content: "";
+    width: 80px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    bottom: -30px;
+    left: 0;
+}
+
+
+.inhouse-section .inhouse-parrents .left-part-cotent .inhouse-content {
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px; 
+	position: relative;
+	max-width: 99%;
+}
+
+.inhouse-section .inhouse-parrents .left-part-cotent .inhouse-content :before{
+	content: "";
+	position: absolute;
+	background-repeat: no-repeat;
+	width: 419px;
+	height: 419px;
+	background-image: url(../image/bglogo.png);
+	left: 50%;
+	top: 50%;
+	transform: translate(-50%,-50%);
+	z-index: -1;
+
+}
+.inhouse-section .inhouse-parrents .left-part-cotent .inhouse-btn a{
+	padding: 14px 30px 14px 30px;
+	font-size: 16px;
+	font-family: 'Roboto Slab', serif;
+	font-weight: 400;
+	text-decoration: none;
+	color:#000;
+	border: 2px solid black;
+	margin-top: 80px;
+	display: inline-block;
+	transition: 0.5s;
+}
+.inhouse-section .inhouse-parrents .left-part-cotent .inhouse-btn a:hover{
+	background-color: red;
+	border: 1px solid red;
+	color:#eee;
+}
+
+.inhouse-section .inhouse-parrents .right-part-image .right-part-image img{
+	width: 100%;
+}
+
+
+/*---------------------area of practice---------------*/
+
+.area-of-practice-section {
+	background-color: #f9f9f9;
+	
+	
+}
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-outsite {
+	text-align: center;
+
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-outsite .aop-content{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	line-height: 14px;
+	font-weight: 400;
+	margin-bottom: 50px;
+}
+
+.area-of-practice-section .area-of-practice-parrents {
+	padding: 70px 0 75px 0;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-outsite .aop-head h2{
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700;
+	font-size: 36px;
+	line-height: 42px;
+	position:relative;
+	padding-bottom: 60px;
+	display: inline-block;
+
+
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-outsite .aop-head p{
+	font-family:  'Open Sans', sans-serif;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 24px;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-outsite .aop-head h2::before {
+    content: "";
+    width: 80px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+
+    bottom: 33px;
+    right: 130px;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card{
+	display: flex;
+	column-gap: 3%;
+}
+
+.bottom-part{
+	margin-top: 45px;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-one{
+	text-align: center;
+	width: 31.13%;
+	background-color: #fff;
+	padding: 30px 25px;
+	border: 2px solid #eeeeee;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-one .card-one-icon{
+	width: 80px;
+	height: 80px;
+	border: 1px solid red;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-one .cone-title h3{
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 10px;
+	padding: 16px 0 22px 0;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-one .cone-dtls p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+
+}
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-one .cone-btn a{
+	border: 2px solid black;
+	padding: 14px 25px;
+	text-decoration: none;
+	margin-top: 26px;
+	display: inline-block;
+	color: #151515;
+}
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-one .cone-btn a:hover{
+	background-color: red;
+	color: #fff;
+	border:2px solid red;
+
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-two{
+	text-align: center;
+	width: 31.13%;
+	background-color: #fff;
+	padding: 30px 25px;
+	border: 2px solid #eeeeee;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-two .card-two-icon{
+	width: 80px;
+	height: 80px;
+	border: 1px solid red;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-two .ctwo-title h3{
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 10px;
+	padding: 16px 0 22px 0;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-two .ctwo-dtls p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+
+}
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-two .ctwo-btn a{
+	border: 2px  solid black;
+	padding: 14px 25px;
+	text-decoration: none;
+	margin-top: 26px;
+	display: inline-block;
+	color: #151515;
+}
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-two .ctwo-btn a:hover{
+	background-color: red;
+	color: #fff;
+	border:2px solid red;
+}
+
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-three{
+	text-align: center;
+	width: 31.13%;
+	background-color: #fff;
+	padding: 30px 25px;
+	border: 2px solid #eeeeee;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-three .card-three-icon{
+	width: 80px;
+	height: 80px;
+	border: 1px solid red;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-three .cthree-title h3{
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 10px;
+	padding: 16px 0 22px 0;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-three .cthree-dtls p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+
+}
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-three .cthree-btn a{
+	border: 2px solid black;
+	padding: 14px 25px;
+	text-decoration: none;
+	margin-top: 26px;
+	display: inline-block;
+	color: #151515;
+}
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-three .cthree-btn a:hover{
+	background-color: red;
+	color: #fff;
+	border:2px solid red;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-four{
+	text-align: center;
+	width: 31.13%;
+	background-color: #fff;
+	padding: 30px 25px;
+	border: 2px solid #eeeeee;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-four .card-four-icon{
+	width: 80px;
+	height: 80px;
+	border: 1px solid red;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-four .cfour-title h3{
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 10px;
+	padding: 16px 0 22px 0;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-four .cfour-dtls p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+
+}
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-four .cfour-btn a{
+	border: 2px solid black;
+	padding: 14px 25px;
+	text-decoration: none;
+	margin-top: 26px;
+	display: inline-block;
+	color: #151515;
+}
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-four .cfour-btn a:hover{
+	background-color: red;
+	color: #fff;
+	border:2px solid red;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-five{
+	text-align: center;
+	width: 31.13%;
+	background-color: #fff;
+	padding: 30px 25px;
+	border: 2px solid #eeeeee;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-five .card-five-icon{
+	width: 80px;
+	height: 80px;
+	border: 1px solid red;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-five .cfive-title h3{
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 10px;
+	padding: 16px 0 22px 0;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-five .cfive-dtls p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+
+}
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-five .cfive-btn a{
+	border: 2px solid black;
+	padding: 14px 25px;
+	text-decoration: none;
+	margin-top: 26px;
+	display: inline-block;
+	color: #151515;
+}
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-five .cfive-btn a:hover{
+	background-color: red;
+	color: #fff;
+	border:2px solid red;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-six{
+	text-align: center;
+	width: 31.13%;
+	background-color: #fff;
+	padding: 30px 25px;
+	border: 2px solid #eeeeee;
+}
+
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-six .card-six-icon{
+	width: 80px;
+	height: 80px;
+	border: 1px solid red;
+	border-radius: 50%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin: 0 auto;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-six .csix-title h3{
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	font-weight: 700;
+	line-height: 10px;
+	padding: 16px 0 22px 0;
+}
+
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-six .csix-dtls p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 21px;
+
+}
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-six .csix-btn a{
+	border: 2px solid black;
+	padding: 14px 25px;
+	text-decoration: none;
+	margin-top: 26px;
+	display: inline-block;
+	color: #151515;
+}
+.area-of-practice-section .area-of-practice-parrents .area-of-practice-card .card-six .csix-btn a:hover{
+	background-color: red;
+	color: #fff;
+	border:2px solid red;
+}
+/* --------------legel_section----- */
+.legal-section .legal-parrents .legal-content .legal-toppart{
+	text-align: center;
+	margin-bottom: 50px;
+}
+
+.legal-section .legal-parrents .legal-content .legal-toppart h2{
+	font-family: 'Roboto Slab', serif;
+	font-size: 36px;
+	font-weight: 700;
+	line-height: 24px;
+	padding: 70px 0 60px 0;
+	position: relative;
+}
+
+.legal-section .legal-parrents .legal-content .legal-toppart h2::before {
+    content: "";
+    width: 80px;
+    height: 5px;
+    background-color: red;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom: 30px;
+}
+
+.legal-section .legal-parrents .legal-content .legal-toppart p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 14px;
+	max-width: 665px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+}
+
+.legal-section .legal-parrents .legal-content .legal-video{
+	display: flex;
+	column-gap: 2%;
+}
+/* .legal-section .legal-parrents .legal-content .legal-video #video-one video > poster{
+	width: 312px;
+	height: 180px;
+} */
+
+.legal-video{
+	display: flex;
+}
+.legal-video video{
+	width: 310px;
+	margin-bottom: 70px;
+}
+
+
+/* -------------problem-sectoin------------- */
+
+.pbl-section {
+	background-image: url(../image/poter-img.png);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	position: relative;
+	z-index: 9;
+}
+.pbl-section::after {
+	content: "";
+	position: absolute;
+	height: 100%;
+	width: 100%;
+	background-color: #000;
+	top: 0;
+	opacity: 0.7;
+	z-index: -1;
+}
+
+.pbl-section .pbl-parrents .pbl-title{
+	text-align: center;
+}
+.pbl-section .pbl-parrents .pbl-title h3{
+	margin-top: 130px;
+	display:inline-block ;
+	font-family: 'Roboto Slab', serif;
+	font-size: 48px;
+	line-height: 30px;
+	font-weight: 700;
+	color:#fff;
+}
+
+.pbl-section .pbl-parrents .pbl-title p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 24px;
+	font-weight: 400;
+	line-height: 30px;
+	margin-top: 70px;
+	color: #fff;
+}
+
+.pbl-section .pbl-parrents .pbl-title a{
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	line-height: 24px;
+	font-weight: 700;
+	border: 1px solid #ffffff;
+	padding: 20px 30px;
+	margin-top: 20px;
+	display: inline-block;
+	color:#ffffff;
+	margin-bottom: 110px;
+	text-decoration: none;
+}
+.pbl-section .pbl-parrents .pbl-title a:hover{
+	background-color: red;
+	color: #000;
+	border: 2px solid red;
+}
+
+/* =============latest-- blog========== */
+.letest-section {
+	margin: 80px 0 100px 0;
+}
+
+.letest-section .letest-parrents .letest-head h2{
+	font-family: 'Roboto Slab', serif;
+	font-size: 36px;
+	line-height: 24px;
+	font-weight: 700;
+	text-align: center;
+	position: relative;
+	text-align: center;
+
+}
+
+.letest-section .letest-parrents .letest-part .letest-blog{
+	display: flex;
+	margin-top: 80px;
+	column-gap: 4%;
+}
+.letest-section .letest-parrents .letest-part h2::before{
+	content: "";
+	width: 80px;
+	height: 4px;
+	background-color: red;
+	position: absolute;
+	left: 50%;
+	transform: translateX(-50%);
+	bottom: -23px;
+}
+
+.letest-section .letest-parrents .letest-part .blog-one{
+	max-width: 48%;
+}
+.letest-section .letest-parrents .letest-part .blog-two{
+	max-width: 48%;
+}
+
+
+.letest-section .letest-parrents .letest-part .blog ul{
+	display: flex;
+	padding-top: 20px;
+	
+}
+
+.letest-section .letest-parrents .letest-part .blog ul li{
+	list-style: none;
+	padding-right: 40px;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 10px;
+}
+
+.letest-section .letest-parrents .letest-part .blog h3{
+	font-family: 'Roboto Slab', serif;
+	font-size: 20px;
+	line-height: 10px;
+	font-weight: 400;
+	padding-top: 15px;
+}
+
+.letest-section .letest-parrents .letest-part .blog p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+	padding-top:20px;
+	padding-bottom: 30px;
+}
+
+.letest-section .letest-parrents .letest-part .blog span a{
+	font-family: 'Roboto Slab', serif;
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 400;
+	color: #000;
+	padding: 15px 24px;
+	border: 1px solid #000;
+	text-decoration: none;
+
+}
+
+.letest-section .letest-parrents .letest-part .blog span a:hover{
+	background-color: red;
+	color: #fff;
+	border: 1px solid red;
+}
+
+.letest-section .letest-parrents .letest-part .blog a{
+	color: red;
+}
+
+.letest-section .letest-parrents .letest-part .letest-blog .blog img{
+	width: 620px;
+	height: 340px;
+	
+}
+#img{
+	position: relative;
+}
+
+#img::after{
+	content: "22 \A JUL";
+	white-space: pre-wrap;
+	text-align: center;
+	width: 95px;
+	height: 100px;
+	background: #000;
+	color: #fff;
+	position: absolute;
+	left: 80px;
+	bottom: -46px;
+	transform: translate(-50%,-50%);
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700px;
+	font-size: 24px;
+	line-height: 30px;
+
+}
+.img{
+	position: relative;
+}
+.img::after{
+	content: "21 \A MAY";
+	white-space: pre-wrap;
+	text-align: center;
+	width: 95px;
+	height: 100px;
+	background: #000;
+	color: #fff;
+	position: absolute;
+	left: 80px;
+	bottom: -46px;
+	transform: translate(-50%,-50%);
+	font-family: 'Roboto Slab', serif;
+	font-weight: 700px;
+	font-size: 24px;
+	line-height: 30px;
+}
+
+/* -------------futter-section------------- */
+
+.futter {
+	background-color: #282628;
+}
+
+.futter .futter-parrents .out-futter{
+	display: flex;
+	padding: 70px 0 70px 0 ;
+}
+.futter .futter-parrents .out-futter{
+	column-gap: 3.5%;
+}
+
+.futter .futter-parrents .left-futter h5,
+.futter .futter-parrents .mid-futter h5,
+.futter .futter-parrents .right-futter h5{
+	font-family: 'Roboto Slab', serif;
+	font-size: 24px;
+	line-height: 10px;
+	font-weight: 700;
+	color: #ffffff;
+	padding-bottom: 35px;
+
+}
+
+
+.futter .futter-parrents .left-futter p{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #9c9c9c;
+	padding-bottom: 35px;
+}
+.futter .futter-parrents .left-futter ul{
+	display: flex;
+	list-style: none;
+	
+}
+.futter .futter-parrents .left-futter ul li{
+	margin-right: 10px;
+}
+
+.futter .futter-parrents .left-futter ul li a{
+	display: flex;
+    text-decoration: none;
+	color: #9c9c9c;
+	height: 32px;
+    width: 32px;
+	border: 1px solid #9c9c9c;
+	align-items: center;
+	justify-content: center;
+	display: flex;
+}
+.futter .futter-parrents .left-futter ul li a:hover{
+	background-color: #fff;
+	color: red;
+}
+
+/* .futter .futter-parrents .left-futter ul li:hover{
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	
+} 
+/* .futter .futter-parrents .left-futter ul li a:hover{
+	color: red; 
+}*/
+.futter .futter-parrents .left-futter{
+	padding-right: 25px;
+}
+
+/* mid */
+.futter .futter-parrents .mid-futter{
+	padding-right: 25px;
+}
+.futter .futter-parrents .mid-futter p{
+	
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 30px;
+
+}
+
+.futter .futter-parrents .mid-futter p{
+	border-bottom: 1px dashed #9c9c9c;
+	padding-top: 5px;
+	padding-bottom: 8px;
+}
+.futter .futter-parrents .mid-futter p a:hover{
+	color: #eeeeee;
+}
+
+.futter .futter-parrents .mid-futter p a{
+	color: #9c9c9c;
+	text-decoration: none;
+	
+}
+
+/* right */
+
+.futter .futter-parrents .right-futter{
+	margin-top: 20px;
+}
+
+.futter .futter-parrents .right-futter ul li{
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 24px;
+}
+.futter .futter-parrents .right-futter ul li #chang-loc{
+	margin-left:20px;
+	display: inline-block;
+	margin-top: 15px;
+}
+.futter .futter-parrents .right-futter ul li {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 14px;
+	color:#9c9c9c;
+	
+}
+
+.futter .futter-parrents .right-futter ul{
+	max-width: 240px;
+}
+.futter .futter-parrents .right-futter ul li {
+	list-style: none;
+	padding-bottom: 30px;
+}
+.futter .futter-parrents .right-futter ul li .loc-call-eml{
+	/* padding-right: 4px; */
+	color: #f1f1f1;
+}
+
+.futter .futter-parrents .right-futter ul li a{
+	text-decoration: none;
+	color:#9c9c9c;
+
+}
+
+.futter .futter-parrents .right-futter ul li a:hover{
+	color: #ffffff;
+}
+
+
+/* ===========mmmmmmmmmmmm======= */
+
+.futter .futter-parrents .left-futter{
+	width: 32%;
+
+}
+.futter .futter-parrents .mid-futter{
+	width: 31%;
+}
+
+.futter .futter-parrents .right-futter{
+	width: 31%;
+}
+
+
+/* =====socet----bar============ */
+
+.socet{
+	background-color: #141314;
+
+}
+
+.socet .socer-parrents{
+	padding: 30px 0;
+	
+}
+
+.socet .socer-parrents p{
+	color: #9c9c9c;
+	text-align: center;
+	padding-left: 345px;
+	display: inline-block;
+	font-family: 'Open Sans', sans-serif;
+	font-size: 16px;
+	font-weight: 400;
+	line-height: 26px;
+	
+}
+.socet .socer-parrents p a{
+	text-decoration: none;
+	color: #9c9c9c;
+}
+.socet .socer-parrents p a:hover{
+	color: #ffffff;
+}
+
+
+
+
+
+
+
+
+
+
+
